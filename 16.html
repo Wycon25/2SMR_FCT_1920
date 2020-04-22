@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<meta charset="utf-8">
+	<link rel="icon" type="image/svg+xml" href="https://wyconassets.s3-eu-west-1.amazonaws.com/extensions/wycon/images/favicon.ico" sizes="any">
+	<title>Formulario</title>
+</head>
+<body>
+	<header>
+		<h1> Formulario</h1>
+	</header>
+		<form>
+			<h1>Dirección</h1>
+			<hr>
+			<label form="Tipo de vía">Tipo de vía</label>
+			<br>
+			<input list="Tipo de vía">
+			<datalist id="Tipo de vía">
+			<option value="Avenida">
+			<option value="Calle">
+			<option value="Travesía">
+			</datalist>
+			<br><br>
+			<i>En un futuro se añadirán mas tipos de vías, gracias por su comprensión.</i>
+			<br>
+			<label form="Vía">Vía</label>
+			<br>
+			<input type="text" name="Vía" placeholder="Nombre de la vía" required="yes">
+			<label form="Número">Número</label>
+			<br>
+			<input type="number" name="Número" placeholder="Número" required="no">
+			<label form="Localidad">Localidad</label>
+			<br>
+			<input type="text" name="Localidad" placeholder="Nombre de la localidad" required="yes">
+			<hr>
+			<p>
+				<a href="15.html"><button type="button">Atrás</button></a>
+				<a href="17.html"><button type="button">Siguiente</button></a>
+			</p>
+		</form>
+</body>
+<footer>
+	<p class="creador"> Adrián Catalín Cotiga</p>
+</footer>
+</html>
